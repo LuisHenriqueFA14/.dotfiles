@@ -1,0 +1,1 @@
+set list lcs=tab:\|\ 
