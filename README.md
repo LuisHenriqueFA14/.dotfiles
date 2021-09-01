@@ -1,6 +1,6 @@
 <h1 align="center">.dotfiles</h1>
 
-<h3>Some printscreens:</h3>
+<h3>Some screenshots:</h3>
 
 <br>
 <img src="./static/terminal.png" align="center">
