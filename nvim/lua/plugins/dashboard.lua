@@ -1,5 +1,7 @@
 local g = vim.g
 
+-- g.dashboard_preview_command = 'cat'
+
 g.dashboard_custom_section = {
 	a = { description = { "洛 New File                  SPC f n" }, command = "DashboardNewFile" },
 	b = { description = { "  Recents                   SPC f o" }, command = "Telescope oldfiles" },

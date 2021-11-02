@@ -3,6 +3,7 @@ nnoremap <silent> <leader><Tab> :NERDTreeToggle<cr>
 nnoremap <silent> <leader>' :NERDTreeFind<CR>
 
 let NERDTreeMapActivateNode='<ENTER>'
+" let NERDTreeMapOpenInTab='<ENTER>'
 
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 

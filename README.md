@@ -9,8 +9,5 @@
 <img src="./static/vim.png" align="center">
 
 <br> <br> <br>
-<img src="./static/vim2.png" align="center">
-
-<br> <br> <br>
 <img src="./static/tmux+vim.png" align="center">
 

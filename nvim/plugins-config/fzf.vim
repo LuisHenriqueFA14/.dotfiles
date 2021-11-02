@@ -3,5 +3,6 @@ let $FZF_DEFAULT_COMMAND = "rg --files -g '!node_modules' -g '!target' -g '!.git
 let g:fzf_layout = { 'down': '30%' }
 
 autocmd VimEnter * command! -bang -nargs=? Files call fzf#vim#files(<q-args>, {'options': '--no-preview'}, <bang>0)
+" autocmd VimEnter * command! -bang -nargs=? Files call fzf#vim#files(<q-args>, {'options': '--preview "cat {}"'}, <bang>0)
 
 nnoremap <silent> <C-p> :Files <CR>
